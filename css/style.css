@@ -240,3 +240,65 @@ body{
     color: var(--white);
     background-color: var(--brightBlue);
 }
+
+.footer{
+    background-color: var(--veryDarkBlue);
+    color: var(--white);
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.footer-logo{
+    display: block;
+}
+
+.footer-icon{
+    vertical-align: middle;
+    margin-right: .5em;
+}
+
+.footer-info{
+    font-size: 1.2rem;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--fontHeading);
+
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}
+
+.footer-social{
+    display: flex;
+    inline-size: max-content ;
+    margin: 0 auto;
+    gap: 1.5em;
+}
+
+.footer-media{
+    border: 1px solid var(--white);
+    inline-size: 2rem;
+    block-size: 2rem;
+    border-radius: 50%;
+    display: flex;
+}
+
+.footer-img{
+    inline-size: 1.5rem;
+    max-block-size: 1.5rem;
+    margin: auto;
+}
