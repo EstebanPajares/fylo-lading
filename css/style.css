@@ -10,6 +10,8 @@
 
     --fontBody: 'Open Sans', sans-serif;
     --fontHeading: 'Raleway', sans-serif;
+
+    --padding-container: 5.625rem 0;
 }
 
 *{
@@ -19,4 +21,39 @@
 body{
     font-family: var(--fontBody);
 
+}
+
+.container{
+    inline-size: 90%;
+    max-inline-size: 75rem;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: var(--padding-container);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    outline: 1px solid red;
+    --padding-container: 2.5rem 0;
+}
+
+.nav-logo{
+    inline-size: 6.875rem;
+}
+
+.nav-img{
+    inline-size: 100%;
+    display: block;
+}
+
+.nav-link:first-of-type{
+    margin-left: auto;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: var(--desaturatedBlue);
+    font-family: var(--fontHeading);
 }
