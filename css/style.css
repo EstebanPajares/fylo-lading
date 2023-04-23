@@ -302,3 +302,82 @@ body{
     max-block-size: 1.5rem;
     margin: auto;
 }
+
+@media (min-width:768px){
+    .hero {
+            --padding-container: 5.625rem 0 12.5rem;
+        }
+
+        .hero::before {
+            background-image: url(../images/bg-curve-desktop.svg);
+
+        }
+
+        .hero-img {
+            max-inline-size: none;
+
+        }
+
+        .hero-main{
+            display: flex;
+            align-items: center;
+            gap: 1.5em;
+        }
+        .hero-info {
+            order: -1;
+            text-align: left;
+        }
+
+        .hero-title {
+            font-size: 2.3rem;
+            margin-block-start: 0;
+        }
+
+        .hero-contact{
+            display: flex;
+            gap: 1em;
+        }
+
+        .hero-input{
+            min-width: 13.3rem;
+            flex-grow: 1;
+        }
+        .hero-input--cta{
+            margin-block-start: 0;
+            flex-grow: 0;
+            inline-size: 13.3rem;
+        }
+
+        .productive-img {
+            max-inline-size: none;
+        }
+
+        .productive-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .productive-picture{
+            inline-size: 45%;
+            order: 1;
+        }
+        .productive-main {
+            margin-block-start: 0;
+            inline-size: 52%;
+        }
+
+        .productive-title {
+            font-size: 2.1rem;
+            text-align: left;
+
+        }
+
+        .productive-cta {
+            margin: 2em 0 3em ;
+        }
+
+        .productive-testimony{
+            max-inline-size: 26.25rem ;
+            margin: 2px;
+        }
+}
