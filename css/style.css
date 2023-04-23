@@ -199,3 +199,44 @@ body{
     border-radius:50%;
     margin-right: 1rem;
 }
+
+.newsletter{
+    background-color: var(--desaturatedBlue);
+    color: var(--white);
+    text-align: center;
+}
+
+.newsletter-form{
+    inline-size: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-block-start: 2em;
+}
+
+.newsletter-title{
+    font-family: var(--fontHeading);
+}
+
+.newsletter-paragraph{
+    line-height: 1.5;
+    margin-block-start: 1.2em;
+}
+
+.newsletter-email, .newsletter-submit{
+    padding: 1em .5em;
+    font: inherit;
+    font-family: var(--fontHeading);
+    border-radius: 3px;
+    border: none;
+}
+
+.newsletter-email{
+    box-shadow: 0 0 4px rgb(0, 0, 0, .3);
+}
+
+.newsletter-submit{
+    color: var(--white);
+    background-color: var(--brightBlue);
+}
